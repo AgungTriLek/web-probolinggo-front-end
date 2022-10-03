@@ -1,0 +1,81 @@
+.Container {
+    margin-right: 24px;
+    margin-top: 24px;
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.514);
+    background-color: #fff;
+    font-size: 0;
+}
+
+.Img {
+    font-size: 0;
+    padding: 0;
+}
+
+.Img img {
+    border-radius: 8px 0 0 8px;
+}
+
+.Title {
+    height: 80px;
+}
+
+.TitleSlug {
+    text-align: center;
+}
+
+.TitleSlug h2 {
+    display: inline-block;
+    margin: auto;
+    padding: 24px 32px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.514);
+    border-radius: 8px;
+}
+
+.Date {
+    font-size: 14px;
+    text-align: center;
+}
+
+.Link {
+    font-size: 14px;
+    text-align: center;
+}
+
+.Link a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.Link a:hover {
+    color: #0dcaf0;
+}
+
+@media screen and (max-width: 576px) {
+    .Container {
+        margin: 24px auto ;
+        text-align: center;
+        /* margin-right: 24px;
+        margin-top: 24px; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Date {
+    padding-bottom: 12px;
+    }
+
+    .Link {
+    padding-bottom: 12px;
+    }
+
+    .Title {
+        padding-top: 12px;
+    }
+}
+
+

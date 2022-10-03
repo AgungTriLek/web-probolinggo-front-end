@@ -1,0 +1,12 @@
+.Geo {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.Geo h4 {
+    color: #087852;
+    font-weight: bold;
+}

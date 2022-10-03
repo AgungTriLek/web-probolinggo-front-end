@@ -1,0 +1,12 @@
+.styleList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.bgFooter {
+    background-color: rgb(12, 12, 12);
+    color: rgb(240, 240, 240);
+    margin-top: 100px;
+    padding-top: 24px;
+}

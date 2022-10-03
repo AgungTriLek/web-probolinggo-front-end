@@ -1,0 +1,27 @@
+.GambarMaknaLogo {
+    /* height: 80px !important;
+    width: 120px !important; */
+    margin: 0px 12px;
+}
+.CardMaknaLogo {
+    padding: 24px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.300);
+    background-color: #fff;
+    /* height: 140px; */
+    width: 100%;
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+.ImgContent {
+    height: 100px !important;
+    width: auto !important;
+    scale: 0.5;
+    max-width: none !important;
+    max-height: none !important;
+    min-width: unset !important;
+    min-height: unset !important;
+}
+}

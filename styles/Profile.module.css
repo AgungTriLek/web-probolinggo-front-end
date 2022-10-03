@@ -1,0 +1,16 @@
+.Navbar {
+    background-color: #0C0717;
+    margin-bottom: 50px;
+}
+
+.Breadcrumb {
+    margin-bottom: 50px;
+}
+
+.Wilayah, .Iframe, .visiMisi, .MaknaLogo, .Geo {
+    margin-bottom: 80px;
+    line-height: 26px;
+}
+
+
+

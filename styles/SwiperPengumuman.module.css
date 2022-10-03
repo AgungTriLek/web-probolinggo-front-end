@@ -1,0 +1,44 @@
+.cardSwiper {
+    background-color: rgba(27, 27, 27, 0.733);
+    margin: 0 !important;
+    border-radius: 8px;
+    padding-top: 12px;
+}
+
+.cardSwiper::first-line {
+    padding-left: 10px;
+}
+
+.titleSwiper {
+    height: 120px;
+    color: #fff;
+    /* margin-left: 20px;
+    margin-right: 15px; */
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+
+.timeSwiper {
+    color: #c4c4c4;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+
+@media screen and (max-width: 540px) {
+    .titleSwiper h5 {
+        font-size: 14px;
+    }
+
+    .titleSwiper {
+        margin: 0;
+    }
+
+    .timeSwiper small {
+        font-size: 12px;
+    }
+    .cardSwiper {
+        /* width: 40%; */
+    }
+}

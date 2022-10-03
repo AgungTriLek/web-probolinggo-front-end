@@ -1,0 +1,29 @@
+.MaknaLogo {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.MaknaLogo h4 {
+    color: #087852;
+    font-weight: bold;
+}
+
+
+.ContainerCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.ContainerCard2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+
+

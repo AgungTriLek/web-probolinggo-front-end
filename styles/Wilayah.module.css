@@ -1,0 +1,38 @@
+.Wilayah {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.Wilayah h4 {
+    font-weight: bold;
+    color: #FB8500;
+}
+
+.CardWilayah {
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.300);
+    background-color: #fff;
+}
+
+.ImgWilayah {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ContentWilayah {
+    padding-left: 6px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 425px) {
+    .Rowcontent {
+        flex-direction: column;
+        margin: 0;
+        align-content: center;
+    }
+}
+

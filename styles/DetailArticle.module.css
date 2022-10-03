@@ -1,0 +1,6 @@
+.ContainerContent {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.514);
+    padding: 24px;
+    margin-right: 24px;
+    border-radius: 8px;
+}

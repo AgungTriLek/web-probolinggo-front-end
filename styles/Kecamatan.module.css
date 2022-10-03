@@ -1,0 +1,44 @@
+.Anchor {
+    text-decoration: none;
+    padding: 20px 36px;
+    color: black;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.514);
+    background-color: #fff;
+}
+
+.Anchor:hover {
+    border: none;
+    background-color: #117cee;
+    box-shadow: 0 8px 24px #117cee60;
+    color: rgb(255, 255, 255);
+}
+
+.Dropdown {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.WaitingContent {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.514);
+    padding: 24px;
+    text-align: center;
+    
+}
+
+.ContainerContent {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.514);
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.Loader {
+    border-radius: 8px;
+    height: 120px;
+    width: 100%;
+    margin: 20px 0;
+    background-color: rgb(56, 56, 56);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.514);
+}

@@ -1,0 +1,71 @@
+.Visi{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+
+}
+
+.Visi h4, .Misi h4 {
+    color: #1B5E88;
+    font-weight: bold;
+}
+
+.Misi {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+
+}
+
+.Misi1, .Misi2, .Misi3, .Misi4, .Misi5, .Misi6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    /* width: 360px; */
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.500);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.pMisi1, .pMisi2, .pMisi3, .pMisi4, .pMisi5, .pMisi6 {
+    margin: 0 32px !important;
+}
+
+
+
+.ImgMisi {
+    height: 100px !important;
+    width: 100px !important;
+    max-width:  none !important;
+    max-height: none !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    animation: gearRotate 10s linear 1s infinite ;
+}
+
+@keyframes gearRotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ImgMisi {
+        display: none !important;
+    }
+}

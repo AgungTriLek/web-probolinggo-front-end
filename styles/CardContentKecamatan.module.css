@@ -1,0 +1,59 @@
+.Container {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.514);
+    margin: 20px 0;
+    border-radius: 8px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.Anchor {
+    padding-bottom: 24px;
+}
+
+.Anchor a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+
+.Anchor a:hover {
+    opacity: 1;
+}
+
+.TitleContent {
+    height: 100px;
+    padding-top: 24px;
+}
+
+.Img {
+    font-size: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.Img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px 0 0 8px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .Img {
+        padding: 24px 0;
+    }
+
+.TitleContent {
+    text-align: center;
+}
+
+.Anchor {
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.Time {
+    text-align: center;
+}
+}

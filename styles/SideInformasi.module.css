@@ -1,0 +1,31 @@
+.Container {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.514);
+    margin: 20px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+    background-color: #fff;
+}
+
+.Img {
+    font-size: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Img img {
+    border-radius: 8px 8px 8px 8px;
+    /* width: 80px !important; */
+}
+
+.Text h5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.Text p {
+    opacity: 0.8;
+}

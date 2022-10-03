@@ -1,0 +1,54 @@
+.Title {
+    padding: 14px 20px;
+    margin: 24px 0;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.containerCategory {
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 8px rgba(0, 67, 101, 0.19);
+    padding-bottom: 100px;
+}
+
+.TextContent {
+    display: block;
+    height: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.LinkCategory {
+    text-align: end;
+}
+
+.LinkCategory a {
+    text-decoration: none;
+    color: black;
+    padding: 12px 24px;
+    opacity: 0.6;
+    margin-right: 12px;
+    border: 1px solid rgba(0, 0, 0, 0);
+
+}
+
+.LinkCategory a:hover {
+    opacity: 1;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+    .TextResponsive {
+        order: 2;
+    }
+
+    .LinkCategory {
+        margin-bottom: 24px;
+    }
+  }
